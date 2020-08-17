@@ -4,6 +4,7 @@ This project is a skeleton for a rails app following ["Quickstart: Compose and R
 From this sketch you can run the following commands to jump-start your app:
 ```
 docker-compose run web rails new . --force --no-deps --database=postgresql
+docker-compose run web rails webpacker:install
 sudo chown -R $USER:$USER . # Linux only
 docker-compose build
 ```
